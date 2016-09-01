@@ -1,0 +1,20 @@
+// $Id: assignment2.mpc 378 2010-02-07 22:09:38Z hillj $
+
+project (assignment2) {
+	  exename = runable
+	  install = .
+ 
+	Source_Files {
+		main.cpp
+	}
+
+	Template_Files {
+		Data.cpp
+	 }
+
+	Header_Files {
+		Data.h
+	}
+
+	
+}
